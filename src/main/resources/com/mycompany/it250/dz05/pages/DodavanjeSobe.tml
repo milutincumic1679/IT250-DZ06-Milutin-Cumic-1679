@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html t:type="layout" title="Nasa prva stranica"
+xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+xmlns:p="tapestry:parameter">
+    <t:beaneditform object="soba"/>
+    <t:grid t:source="sobe"/>
+</html>
